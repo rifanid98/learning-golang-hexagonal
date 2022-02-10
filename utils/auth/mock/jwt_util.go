@@ -3,7 +3,7 @@ package mock
 import (
 	"errors"
 	"github.com/stretchr/testify/mock"
-	port "messaging/business/port/intl/v1/auth"
+	port "learning-golang-hexagonal/business/port/intl/v1/auth"
 )
 
 type JWTUtilMock struct {

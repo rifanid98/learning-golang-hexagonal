@@ -5,8 +5,8 @@ import (
 	"reflect"
 
 	"gorm.io/gorm"
-	"messaging/business/model"
-	"messaging/utils/helper"
+	"learning-golang-hexagonal/business/model"
+	"learning-golang-hexagonal/utils/helper"
 )
 
 type (

@@ -9,18 +9,26 @@
 			"driver": "mysql",
 			"host": "localhost",
 			"user": "root",
-			"password": "",
-			"db_name": "teleco",
+			"password": "root",
+			"db_name": "learning_golang_hexagonal",
 			"port": 3306,
 			"pool": {
 				"maxOpenConns": 100,
 				"maxIdleConns": 10,
 				"maxLifetime": 300
 			}
+		},
+		"mongo": {
+			"driver": "mongo",
+			"host": "localhost",
+			"user": "mongo",
+			"password": "mongo",
+			"db_name": "learning_golang_hexagonal",
+			"port": 27017
 		}
 	},
 	"logdir": "log",
-	"log_identifier": "teleco",
+	"log_identifier": "learning_golang_hexagonal",
 	"log_max_age": 15,
 	"debug": true
 }

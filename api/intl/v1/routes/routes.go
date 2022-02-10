@@ -4,21 +4,21 @@ import (
 	"fmt"
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
-	"messaging/utils/auth"
-	"messaging/utils/config"
+	"learning-golang-hexagonal/utils/auth"
+	"learning-golang-hexagonal/utils/config"
 
-	m "messaging/api/intl/v1/routes/middleware"
-	cryptoUtil "messaging/utils/crypto"
-	helperUtil "messaging/utils/helper"
+	m "learning-golang-hexagonal/api/intl/v1/routes/middleware"
+	cryptoUtil "learning-golang-hexagonal/utils/crypto"
+	helperUtil "learning-golang-hexagonal/utils/helper"
 
-	adminUserCtrl "messaging/api/intl/v1/admin/user"
-	authCtrl "messaging/api/intl/v1/auth"
+	adminUserCtrl "learning-golang-hexagonal/api/intl/v1/admin/user"
+	authCtrl "learning-golang-hexagonal/api/intl/v1/auth"
 
-	authService "messaging/business/services/intl/v1/auth"
-	userService "messaging/business/services/intl/v1/user"
+	authService "learning-golang-hexagonal/business/services/intl/v1/auth"
+	userService "learning-golang-hexagonal/business/services/intl/v1/user"
 
-	userRepository "messaging/modules/repository/mongodb/user"
-	userTokenRepository "messaging/modules/repository/mongodb/user_token"
+	userRepository "learning-golang-hexagonal/modules/repository/mongodb/user"
+	userTokenRepository "learning-golang-hexagonal/modules/repository/mongodb/user_token"
 )
 
 func acl(permission string) echo.MiddlewareFunc {

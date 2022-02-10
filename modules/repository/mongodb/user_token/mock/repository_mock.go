@@ -4,8 +4,8 @@ import (
 	"errors"
 	"github.com/stretchr/testify/mock"
 	"go.mongodb.org/mongo-driver/bson/primitive"
-	"messaging/business/model"
-	"messaging/modules/repository/mongodb"
+	"learning-golang-hexagonal/business/model"
+	"learning-golang-hexagonal/modules/repository/mongodb"
 )
 
 type RepositoryMock struct {

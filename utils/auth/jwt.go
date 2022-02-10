@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/golang-jwt/jwt/v4"
-	"messaging/utils/config"
+	"learning-golang-hexagonal/utils/config"
 )
 
 type (

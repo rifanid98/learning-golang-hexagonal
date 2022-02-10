@@ -1,4 +1,4 @@
-module messaging
+module learning-golang-hexagonal
 
 go 1.17
 

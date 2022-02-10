@@ -2,7 +2,7 @@ package middleware
 
 import (
 	"github.com/labstack/echo/v4"
-	authPort "messaging/business/port/intl/v1/auth"
+	authPort "learning-golang-hexagonal/business/port/intl/v1/auth"
 	"strings"
 )
 

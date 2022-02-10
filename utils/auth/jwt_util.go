@@ -1,6 +1,6 @@
 package auth
 
-import port "messaging/business/port/intl/v1/auth"
+import port "learning-golang-hexagonal/business/port/intl/v1/auth"
 
 type JWTUtil interface {
 	GenerateToken(tokenID uint, authUser *port.AuthUser) (err error)

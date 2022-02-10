@@ -10,7 +10,7 @@
 
 == Cara Menjalakan
  1. Clone repo ini
- 2. Buat database dengan nama `marketplace_utility`
+ 2. Buat database dengan nama `learning-golang-hexagonal`
  3. Copy file `config_example.json` ke `config.json`
  4. Buka file `config.json` lalu edit, sesuaikan dengan configurasi di komputer
  5. Jalankan DB Migration untuk setup table dan `preload` data yang diperlukan, `go run app/migration/mysql/main.go up`

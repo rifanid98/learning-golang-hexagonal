@@ -7,8 +7,8 @@ import (
 	"os/signal"
 	"time"
 
-	"messaging/api/intl/v1/routes"
-	"messaging/utils/logger"
+	"learning-golang-hexagonal/api/intl/v1/routes"
+	"learning-golang-hexagonal/utils/logger"
 
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"

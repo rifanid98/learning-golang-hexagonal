@@ -3,11 +3,11 @@ package user
 import (
 	"errors"
 	"fmt"
-	port "messaging/business/port/intl/v1/user"
-	portUserToken "messaging/business/port/intl/v1/user_token"
+	port "learning-golang-hexagonal/business/port/intl/v1/user"
+	portUserToken "learning-golang-hexagonal/business/port/intl/v1/user_token"
 
-	"messaging/business/model"
-	"messaging/utils/crypto"
+	"learning-golang-hexagonal/business/model"
+	"learning-golang-hexagonal/utils/crypto"
 )
 
 type (

@@ -5,15 +5,15 @@ import (
 	"fmt"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	"messaging/modules/repository/mongodb"
-	"messaging/utils/crypto"
-	"messaging/utils/crypto/mock"
+	"learning-golang-hexagonal/modules/repository/mongodb"
+	"learning-golang-hexagonal/utils/crypto"
+	"learning-golang-hexagonal/utils/crypto/mock"
 
-	drivenPort "messaging/business/model"
-	driverPort "messaging/business/port/intl/v1/user"
-	driverPortImpl "messaging/business/services/intl/v1/user"
-	drivenPortImplMock1 "messaging/modules/repository/mongodb/user/mock"
-	drivenPortImplMock2 "messaging/modules/repository/mongodb/user_token/mock"
+	drivenPort "learning-golang-hexagonal/business/model"
+	driverPort "learning-golang-hexagonal/business/port/intl/v1/user"
+	driverPortImpl "learning-golang-hexagonal/business/services/intl/v1/user"
+	drivenPortImplMock1 "learning-golang-hexagonal/modules/repository/mongodb/user/mock"
+	drivenPortImplMock2 "learning-golang-hexagonal/modules/repository/mongodb/user_token/mock"
 )
 
 var cryptoUtil = crypto.NewCrypto()

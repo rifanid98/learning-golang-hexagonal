@@ -10,7 +10,7 @@ import (
 	"github.com/pressly/goose"
 	"github.com/spf13/cobra"
 	_ "gorm.io/driver/mysql"
-	"messaging/utils/config"
+	"learning-golang-hexagonal/utils/config"
 )
 
 var usageCommands = `

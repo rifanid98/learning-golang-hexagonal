@@ -19,7 +19,7 @@ func init() {
 
 func LoadEnvVars() {
 	// Bind OS environment variable
-	viper.SetEnvPrefix("marketplace_utility")
+	viper.SetEnvPrefix("learning_golang_hexagonal")
 
 	err := viper.BindEnv("env")
 	if err != nil {
@@ -32,8 +32,8 @@ func LoadEnvVars() {
 	}
 
 	cwd, _ := os.Getwd()
-	dirString := strings.Split(cwd, "messaging")
-	dir := strings.Join([]string{dirString[0], "messaging"}, "")
+	dirString := strings.Split(cwd, "learning-golang-hexagonal")
+	dir := strings.Join([]string{dirString[0], "learning-golang-hexagonal"}, "")
 	AppPath := dir
 
 	cfg := "config"

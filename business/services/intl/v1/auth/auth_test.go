@@ -3,18 +3,18 @@ package auth_test
 import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	"messaging/modules/repository/mongodb"
-	"messaging/utils/auth/mock"
-	"messaging/utils/helper"
+	"learning-golang-hexagonal/modules/repository/mongodb"
+	"learning-golang-hexagonal/utils/auth/mock"
+	"learning-golang-hexagonal/utils/helper"
 
-	drivenPort "messaging/business/model"
-	driverPort "messaging/business/port/intl/v1/auth"
-	driverPortImpl "messaging/business/services/intl/v1/auth"
-	drivenPortImplMock1 "messaging/modules/repository/mongodb/user/mock"
-	drivenPortImplMock2 "messaging/modules/repository/mongodb/user_token/mock"
-	authUtil "messaging/utils/auth"
-	cryptoUtilMock "messaging/utils/crypto/mock"
-	helperUtilMock "messaging/utils/helper/mock"
+	drivenPort "learning-golang-hexagonal/business/model"
+	driverPort "learning-golang-hexagonal/business/port/intl/v1/auth"
+	driverPortImpl "learning-golang-hexagonal/business/services/intl/v1/auth"
+	drivenPortImplMock1 "learning-golang-hexagonal/modules/repository/mongodb/user/mock"
+	drivenPortImplMock2 "learning-golang-hexagonal/modules/repository/mongodb/user_token/mock"
+	authUtil "learning-golang-hexagonal/utils/auth"
+	cryptoUtilMock "learning-golang-hexagonal/utils/crypto/mock"
+	helperUtilMock "learning-golang-hexagonal/utils/helper/mock"
 )
 
 var _ = Describe("Auth", func() {

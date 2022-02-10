@@ -1,8 +1,8 @@
 package user
 
 import (
-	port "messaging/business/port/intl/v1/user"
-	"messaging/utils/validator"
+	port "learning-golang-hexagonal/business/port/intl/v1/user"
+	"learning-golang-hexagonal/utils/validator"
 	"net/http"
 
 	"github.com/labstack/echo/v4"

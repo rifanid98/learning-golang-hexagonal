@@ -1,6 +1,6 @@
 package user
 
-import "messaging/business/model"
+import "learning-golang-hexagonal/business/model"
 
 // Repository is outbound port
 type Repository interface {

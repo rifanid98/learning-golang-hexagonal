@@ -5,7 +5,7 @@ import (
 
 	"github.com/golang-jwt/jwt/v4"
 	"github.com/labstack/echo/v4"
-	"messaging/utils/auth"
+	"learning-golang-hexagonal/utils/auth"
 )
 
 //ACL is method for checking user permisson

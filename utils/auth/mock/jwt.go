@@ -3,7 +3,7 @@ package mock
 import (
 	"errors"
 	"github.com/stretchr/testify/mock"
-	"messaging/utils/auth"
+	"learning-golang-hexagonal/utils/auth"
 )
 
 var (

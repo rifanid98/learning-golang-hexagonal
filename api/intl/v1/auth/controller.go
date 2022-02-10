@@ -2,12 +2,12 @@ package auth
 
 import (
 	"github.com/golang-jwt/jwt/v4"
-	port "messaging/business/port/intl/v1/auth"
-	"messaging/utils/auth"
+	port "learning-golang-hexagonal/business/port/intl/v1/auth"
+	"learning-golang-hexagonal/utils/auth"
 	"net/http"
 
 	"github.com/labstack/echo/v4"
-	"messaging/utils/validator"
+	"learning-golang-hexagonal/utils/validator"
 )
 
 type Controller struct {

@@ -2,15 +2,15 @@ package auth
 
 import (
 	"errors"
-	port "messaging/business/port/intl/v1/auth"
-	userPort "messaging/business/port/intl/v1/user"
-	userTokenPort "messaging/business/port/intl/v1/user_token"
+	port "learning-golang-hexagonal/business/port/intl/v1/auth"
+	userPort "learning-golang-hexagonal/business/port/intl/v1/user"
+	userTokenPort "learning-golang-hexagonal/business/port/intl/v1/user_token"
 
-	"messaging/business/model"
+	"learning-golang-hexagonal/business/model"
 
-	"messaging/utils/auth"
-	"messaging/utils/crypto"
-	"messaging/utils/helper"
+	"learning-golang-hexagonal/utils/auth"
+	"learning-golang-hexagonal/utils/crypto"
+	"learning-golang-hexagonal/utils/helper"
 )
 
 type (

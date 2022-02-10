@@ -2,7 +2,7 @@ package usertoken
 
 import (
 	"gorm.io/gorm"
-	"messaging/business/model"
+	"learning-golang-hexagonal/business/model"
 )
 
 type (

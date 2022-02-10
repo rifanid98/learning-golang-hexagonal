@@ -5,7 +5,7 @@ import (
 	"bitbucket.org/klopos/majoo-logger/logger"
 	"time"
 
-	"messaging/utils/config"
+	"learning-golang-hexagonal/utils/config"
 
 	"os"
 	"strings"
