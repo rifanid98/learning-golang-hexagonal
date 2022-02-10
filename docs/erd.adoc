@@ -1,0 +1,3 @@
+= ERD
+
+image::images/ERD.png[Minipos ERD]
